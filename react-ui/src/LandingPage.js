@@ -2,11 +2,8 @@ import "./LandingPage.css";
 import { useState, useEffect, useRef } from "react";
 
 import React from "react";
-import { NavigationBar } from "../Modules/NavigationBar";
+import { NavigationBar } from "./Modules/NavigationBar";
 import PropTypes from "prop-types";
-
-import WebsiteImg from "../IMG/pexels.jpg";
-import DesignIMG from "../IMG/pexels-design.jpg";
 
 const LandingPage = (props) => {
   const ref_TextContainer = useRef();

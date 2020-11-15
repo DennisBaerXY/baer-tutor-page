@@ -104,13 +104,13 @@
 }
 
 .firstImage{
-    background:center  url("../IMG/pexels.jpg") ;
+    background:center  url("./pexels.jpg") ;
     background-size: cover;
     
 }
 
 .secondIMG{
-    background:center  url("../IMG/pexels-design.jpg");
+    background:center  url("./pexels-design.jpg");
     background-size: cover;
 }
 

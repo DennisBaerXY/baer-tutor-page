@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Dashboard from "./Sites/Dashboard";
-import LandingPage from "./Sites/LandingPage";
+import Dashboard from "./Dashboard";
+import LandingPage from "./LandingPage";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
