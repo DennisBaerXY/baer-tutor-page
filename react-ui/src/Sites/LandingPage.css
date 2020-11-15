@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LandingPageContainer {
+    min-height: 100vh;
+    min-width: 100vw;
+    
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  
+
+   
+    
+    
+    
+}
+
+
+
+.TextContainer{
+    position: relative;
+    background-color: white;
+
+    width: 100%;
+    
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    
+
+    align-items: center;
+   
+    
+
+    transition: all .5s;
+
+}
+
+.LandingPageH1{
+    
+    position: relative;
+    
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: #000 solid 3px;
+    
+}
+.sublinks{
+    position: relative;
+  
+    
+    height: 2rem;
+    
+    
+    width:100%;
+   
+ 
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.listitem{
+
+ 
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0 auto;
+
+    border: none;
+    transition: all .2s ease-in-out;
+    transition: border 0s;
+}
+
+.listitem:hover{
+    list-style: none;
+    box-sizing: border-box;
+  
+    border-bottom: 2px solid blue ;
+
+}
+
+
+
+.imageBlock{
+    width: 100%;
+    height: 1000px;
+    
+    
+}
+
+.firstImage{
+    background:center  url("../IMG/pexels.jpg") ;
+    background-size: cover;
+    
+}
+
+.secondIMG{
+    background:center  url("../IMG/pexels-design.jpg");
+    background-size: cover;
+}
+
+.TextBlock{
+    position: relative;
+    width: 400px;
+    top: 100px;
+    left: 250px;
+    right: auto;
+
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 0 1px 1px black ;
+}
+
+.TextBlock2{
+    position: relative;
+    width: 700px;
+    
+    overflow-wrap: break-word;
+    top: 25%;
+    left: calc(50% - 350px);
+    
+
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 0 1px 1px black ;
+}
+
+
+.content-seperation{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+
+}
+
+.nextContentHeader{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    padding-bottom: 5px;
+    border-bottom: #000 solid 2px;
+    
+}
