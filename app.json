@@ -1,0 +1,21 @@
+{
+    "name": "heroku-cra-node",
+    "description": "Baer-Tutor website for demonstartion",
+    "scripts": {
+    },
+    "env": {
+    },
+    "formation": {
+      "web": {
+        "quantity": 1
+      }
+    },
+    "addons": [
+  
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }
